@@ -17,18 +17,29 @@ Entropy is a measure of impurity in a set of data. The tree is split at each nod
 This code appears to be an implementation of a Decision Tree classifier using the scikit-learn library in Python. Let's break down the code and provide explanations along with some theory and result analysis.
 
 **Code Description:**
+
 **1. Importing Libraries:** The necessary libraries are imported, including Pandas for data manipulation, Matplotlib and Seaborn for visualization, and scikit-learn for machine learning.
+
 **2. Loading Dataset:** The code loads a dataset named cars_clus.csv using Pandas.
+
 **3. Dataset Information:** Prints information about the dataset, including data types and non-null counts.
+
 **4. Viewing Dataset:** Displays the first few rows of the dataset.
+
 **5. Feature Extraction:** Extracts features (X) and the target variable (y) from the dataset.
+
 **6. Building and Visualizing Decision Tree:** Builds a Decision Tree classifier with entropy as the criterion and a maximum depth of 12.
 Visualizes the decision tree.
+
 **7. Splitting Data into Train and Test Sets:** Splits the data into training and testing sets.
+
 **8. Building and Visualizing Decision Tree on Training Set:** Builds a Decision Tree classifier on the training set with a maximum depth of 5.
 Visualizes the decision tree.
+
 **9. Model Evaluation:** Calculates the accuracy of the model on the training and testing sets.
+
 **10. Testing and Evaluation:** Predicts the target variable on the test set and evaluates the model using accuracy, classification report, and confusion matrix.
+
 **11. Visualization:** Visualizes the confusion matrix using Seaborn.
 
 ---
