@@ -5,12 +5,13 @@ The code utilizes scikit-learn to build and evaluate a Decision Tree Classifier 
 
 **Decision Tree:**
 
-A Decision Tree is a tree-like model of decisions and their possible consequences. In this case, it's used for classification.
-The tree is built using the features specified in features and the target variable type.
+* A Decision Tree is a tree-like model of decisions and their possible consequences. In this case, it's used for classification.
+* The tree is built using the features specified in features and the target variable type.
 
 **Entropy:**
 
-Entropy is a measure of impurity in a set of data. The tree is split at each node based on the feature that minimizes entropy.
+* Entropy is a measure of impurity in a set of data. 
+* The tree is split at each node based on the feature that minimizes entropy.
 
 ---
 
@@ -48,52 +49,52 @@ Visualizes the decision tree.
 
 **1.Dataset Exploration:**
 
-The dataset contains information about various car models, including features such as horsepower, fuel capacity, price, and type.
-Data types and basic statistics are explored using Pandas.
+* The dataset contains information about various car models, including features such as horsepower, fuel capacity, price, and type.
+* Data types and basic statistics are explored using Pandas.
 
 **2.Feature Extraction:**
 
-Relevant features (horsepow, fuel_cap, price, etc.) are selected for model training.
+* Relevant features (horsepow, fuel_cap, price, etc.) are selected for model training.
 
 **3.Decision Tree Model Building:**
 
-A Decision Tree classifier is constructed with the criterion of entropy and a specified maximum depth.
-The initial model is trained on the entire dataset, and a decision tree visualization is generated.
+* A Decision Tree classifier is constructed with the criterion of entropy and a specified maximum depth.
+* The initial model is trained on the entire dataset, and a decision tree visualization is generated.
 
 **4.Train-Test Split:**
 
-The dataset is divided into training and testing sets to assess the model's generalization performance.
+* The dataset is divided into training and testing sets to assess the model's generalization performance.
 
 **5.Model Training and Evaluation:**
 
-The Decision Tree model is retrained on the training set.
-The accuracy is perfect on the training set, indicating potential overfitting.
-The model is evaluated on the test set, achieving an accuracy of approximately 83.33%.
+* The Decision Tree model is retrained on the training set.
+* The accuracy is perfect on the training set, indicating potential overfitting.
+* The model is evaluated on the test set, achieving an accuracy of approximately 83.33%.
 
 **6.Model Evaluation Metrics:**
 
-Classification metrics such as precision, recall, and F1-score are computed and reported.
-The confusion matrix provides a detailed breakdown of true positives, true negatives, false positives, and false negatives.
+* Classification metrics such as precision, recall, and F1-score are computed and reported.
+* The confusion matrix provides a detailed breakdown of true positives, true negatives, false positives, and false negatives.
 
 **7.Visualization of Results:**
 
-A heatmap of the confusion matrix is created using Seaborn for better visualization of the model's performance.
+* A heatmap of the confusion matrix is created using Seaborn for better visualization of the model's performance.
 
 ---
 
 **Model Training and Evaluation:**
 
-The model is trained on the entire dataset and then on a train-test split.
-The accuracy on the training set is perfect (1.0), but on the test set, it's 83.33%.
+* The model is trained on the entire dataset and then on a train-test split.
+* The accuracy on the training set is perfect (1.0), but on the test set, it's 83.33%.
 
 **Confusion Matrix and Classification Report:**
 
-The confusion matrix and classification report provide a detailed breakdown of the model's performance on the test set.
-The model performs well in predicting class 0, but struggles with precision and recall for class 1.
+* The confusion matrix and classification report provide a detailed breakdown of the model's performance on the test set.
+* The model performs well in predicting class 0, but struggles with precision and recall for class 1.
 
 **Visualization:**
 
-The decision tree is visualized to provide an intuitive understanding of how the model makes decisions.
+* The decision tree is visualized to provide an intuitive understanding of how the model makes decisions.
 
 ---
 
